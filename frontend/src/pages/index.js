@@ -13,8 +13,7 @@ import { computeAddress } from "ethers/lib/utils.js";
 const inter = Inter({ subsets: ["latin"] });
 
 const client = new Web3Storage({
-  token:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDEwNTg5NGRiRDMzYzIyNzU0MkQyNEQ0NmRlODM5NTU0NDBBYjg1YzQiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NzUyNzQyMzQ5MTQsIm5hbWUiOiJyeWxld2ViM3N0b3JhZ2UifQ.RdmxwQ-YyKFbj0iaOwZVNfMM-eD5id0OUDqLpECXIfI",
+  token:"<YOUR-TOKEN-ID>"
 });
 
 export default function Home() {
